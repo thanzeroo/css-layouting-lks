@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#nav, #feature, #footer {
+    background-color: burlywood;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a {
+    margin: 0px 10px;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#feature img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: block;
+}
+
+#feature p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#content {
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.column1, .column2, .column3 {
+    background-color: burlywood;
+    width: 30%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 0.66%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.column1 {
+    margin-left: 0px;
+}
+
+.column3 {
+    margin-right: 0px;
+}
+
+.column1 h3, .column2 h3, .column3 h3 {
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.column1 p, .column2 p, .column3 p {
+    font-size: 13px;
+}
+
+#footer {
+    font-size: 12px;
+}

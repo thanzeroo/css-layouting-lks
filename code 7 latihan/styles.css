@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: burlywood;
+    padding: 20px;
+    z-index: 10;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+.kolom-konten {
+    width: 500px;
+    float: left;
+}
+
+.kolom-konten p {
+    text-align: justify;
+}
+
+.kolom-menu {
+    width: 190px;
+    float: left;
+    margin-left: 20px;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.clear {
+    clear: both;
+}

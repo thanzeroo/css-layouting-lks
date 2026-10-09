@@ -1,0 +1,21 @@
+dalam cc layouting ada static, relative, absolute, fixed, dan sticky
+
+static: Posisi default/bawaan HTML. Elemen mengikuti alur normal dokumen dan tidak terpengaruh oleh properti top, bottom, left, right, atau z-index.
+
+relative: Elemen tetap berada di alur normal, tetapi posisinya bisa digeser menggunakan top, bottom, left, atau right relatif terhadap posisi aslinya. Ruang kosong bekas elemen tersebut tetap dipertahankan.
+
+absolute: Elemen dikeluarkan dari alur normal dokumen. Posisinya ditentukan relatif terhadap elemen induk terdekat yang memiliki position selain static. Elemen tidak memakan ruang di alur normal dokumen.
+
+fixed: Elemen dikeluarkan dari alur normal dan posisinya dipatok relatif terhadap layar/viewport. Elemen akan tetap diam di posisi yang sama saat halaman di-scroll.
+
+sticky: Gabungan antara relative dan fixed. Elemen berlaku seperti relative sampai halaman di-scroll ke titik batas tertentu (top, bottom, dll.), lalu berubah menjadi fixed (menempel di layar).
+
+materi z-index, position relative dan absolute
+permainan dengan timpa menimpa
+
+Materi layout, jadi menyesuaikan dengan layouting sebelumnya, 
+terdapat banyak contoh layout, jadi semua div/section itu pakai potition 
+yang sesuai, di tambah dengan logika karena smuanya static, jadi tinggal di kombo
+sama layouting, web bisa di porsi yang sesuai sesuai dan rapih
+
+materi responsive layout itu biar rapih di semua divice komputer, tablet, hp

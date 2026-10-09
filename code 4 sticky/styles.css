@@ -1,0 +1,17 @@
+body {
+    height: 2000px;
+}
+
+.judul-1 {
+    position: sticky;
+    top: 0px;
+    background-color: coral;
+    padding: 5px;
+}
+
+.judul-2 {
+    position: sticky;
+    top: 50px;
+    background-color: coral;
+    padding: 5px;
+}

@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#nav a {
+    margin: 0px 10px;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#feature {
+    background-color: #efefef;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#feature img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: block;
+}
+
+#feature p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#content {
+    overflow: hidden;
+}
+
+/* Style dasar untuk semua kolom */
+.article {
+    float: left;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.article h3 {
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.article p {
+    font-size: 13px;
+}
+
+/* Class khusus untuk mengubah warna masing-masing kolom */
+.column1 {
+    background-color: #efefef;
+}
+
+.column2 {
+    background-color: #efefef;
+}
+
+.column3 {
+    background-color: #efefef;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
